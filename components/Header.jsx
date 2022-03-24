@@ -9,15 +9,15 @@ const Header = () => {
             <figure className={"relative w-32 h-12"}>
                 <Image layout={"fill"} src={logo} />
             </figure>
-            {/*middle hidden on mobile*/}
 
-            <section className={"hidden lg:flex space-x-6"}>
+            {/*middle hidden on mobile*/}
+            <nav className={"hidden lg:flex space-x-6"}>
                 <button className={"nav-links"}>Download</button>
                 <button className={"nav-links"}>Why Discord?</button>
                 <button className={"nav-links"}>Nitro</button>
                 <button className={"nav-links"}>Safety</button>
                 <button className={"nav-links"}>Support</button>
-            </section>
+            </nav>
 
             {/*right*/}
             <section className={"flex items-center space-x-3"}>
